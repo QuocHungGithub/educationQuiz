@@ -1,0 +1,19 @@
+  
+  .button-quiz {
+    background-color: #4CAF50; // Màu nền của nút
+    color: white; // Màu chữ của nút
+    border: none; // Không có viền
+    padding: 10px 20px; // Khoảng cách trong nút
+    text-align: center; // Căn giữa nội dung
+    text-decoration: none; // Không gạch chân
+    display: inline-block; // Hiển thị nút inline
+    font-size: 16px; // Kích thước chữ
+    margin: 4px 2px; // Khoảng cách ngoài
+    cursor: pointer; // Con trỏ khi hover
+    border-radius: 5px; // Bo góc
+    transition: background-color 0.3s ease; // Hiệu ứng chuyển màu nền
+  }
+  
+  .button-quiz:hover {
+    background-color: #45a049; // Màu nền khi hover
+  }

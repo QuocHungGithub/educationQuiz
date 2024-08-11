@@ -1,0 +1,34 @@
+.result__list {
+    padding: 20px;
+    background-color: #f9f9f9; // Màu nền cho danh sách kết quả
+    border-radius: 8px; // Bo góc cho danh sách kết quả
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Đổ bóng cho danh sách kết quả
+  }
+  
+  .result__item {
+    margin-bottom: 15px; // Khoảng cách giữa các item
+    padding: 10px; // Padding xung quanh item
+    border-bottom: 1px solid #ddd; // Đường kẻ dưới cho mỗi item
+  }
+  
+  .result__item--selected {
+    font-weight: bold; // In đậm cho đáp án được chọn
+  }
+  
+  .result__item--correct {
+    color: green; // Màu chữ xanh cho đáp án đúng
+  }
+  
+  .result__answer {
+    display: flex; // Sắp xếp input và label trên cùng một dòng
+    align-items: center; // Căn giữa theo chiều dọc
+    margin-bottom: 5px; // Khoảng cách dưới mỗi đáp án
+  }
+  
+  .result__answer input {
+    margin-right: 10px; // Khoảng cách giữa radio và label
+  }
+  
+  .result__answer label {
+    cursor: pointer; // Con trỏ khi hover vào label
+  }
